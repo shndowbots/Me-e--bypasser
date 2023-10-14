@@ -4,22 +4,18 @@ This Discord Bot bypasses a premium feature of the Bot Mee6, that you can use it
 
 You can select roles, that are given to users that reach a certain Mee6-Level.
 
-* In order to add roles, you can send a message `/add <Level number> <Role ID>`
-* In order to remove roles, you can send a message `/remove <Level number>`
-* In order to show all assigned roles, you can send a message `/show`
-* In order to get the id of a role, you can send a message `/id <Role name>`
-* In order to configure whether roles should be removed if someone reaches a higher role, you can send a message `/toggle`.
-* Users get the roles when executing `!rank`
-
-Instead of using `/command` using Discord's slash command feature, users can also use `mb!command` .
+* In order to add roles, you can execute the command `/add <Level number> <Role ID>`
+* In order to remove roles, you can run `/remove <Level number>`
+* In order to show all assigned roles, you can use `/show`
+* In order to get the id of a role, you can execute `/id <Role name>`
+* In order to configure whether roles should be removed if someone reaches a higher role, you do that with `/toggle`.
+* Users get the roles when executing `!rank` or `/rank`
 
 Do not include greater than/lower than signs (`<>`) in the commands.
 
-Note that this does only work if the leaderboard is public.
-
 ### Ratelimits
 
-This bot only allows one rank update per guild per minute in order to avoid API spam.
+This bot only allows one rank update per guild per second in order to prevent high resource consumption due to OCR.
 
 ## Build the bot
 
@@ -57,4 +53,4 @@ Click [here](https://discord.com/api/oauth2/authorize?client_id=6448307928450990
 
 We do not guarantee uptime or functionality of the bot and/or any instance of the bot in any way.
 
-Other bots offer that feature with their own leveling system for free, you can try those too.
+Other bots offer that feature with their own leveling system for free, you can try those too. For example, you can find alternatives to Mee6 [on alternativestomee6.com](https://www.alternativestomee6.com/premium-mee6-alternatives/leveling)
